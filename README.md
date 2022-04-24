@@ -17,4 +17,6 @@ Instructions to run website:
 
 3) Run the website using the URL: localhost/COMP1044_CW_G13/Login.html
 
+Note: You are advised to run the website with an internet connection as we are using FontAwesome and Google Fonts as part of our design.
+
 
