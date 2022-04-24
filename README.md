@@ -13,7 +13,7 @@ Instructions to run website:
 
 1) Import librarydb.sql SQL file in phpMyAdmin
 
-2) Cooy COMP1044_CW_G13 folder into the the htdocs folder
+2) Copy COMP1044_CW_G13 folder into the the htdocs folder
 
 3) Run the website using the URL: localhost/COMP1044_CW_G13/Login.html
 
