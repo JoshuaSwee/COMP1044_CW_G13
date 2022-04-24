@@ -1,0 +1,113 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19px;
+    /* line-height: 1.8em; */
+    overflow-x: hidden;
+	background-color: #6cb8ff;
+}
+
+
+/*Form*/
+.form_style{
+	max-width: 500px;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 10px auto;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+}
+
+.form_style legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+	top: 20px;
+	left: 18px;
+}
+.form_style label {
+	display: block;
+	margin-bottom: 8px;
+}
+
+.form_style input[type="text"],
+.form_style input[type="password"],
+.form_style textarea,
+.form_style select {
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:#8a97a0;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+
+.form_style input[type="text"]:focus,
+.form_style input[type="password"]:focus,
+.form_style textarea:focus,
+.form_style select:focus{
+	background: #d2d9dd;
+}
+
+.form_style select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+
+.form_style button[type="submit"],
+.form_style button[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #309AFD;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #090086;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.form_style button[type="submit"]:hover,
+.form_style botton[type="button"]:hover
+{
+	background: #090086;
+}
+
+/*new changes*/
+a:hover, a.active {
+	color: #309AFD; 
+}
+a { 
+	color: #848586; 
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.form_return {
+	text-align: right;
+	display: block;
+}
+
+
+/*links hover and active*/
+a:hover, a.active {
+	color: #309AFD; 
+}
+a { 
+	color: #848586; 
+	text-decoration: none;
+	transition: all 0.3s ease;
+}

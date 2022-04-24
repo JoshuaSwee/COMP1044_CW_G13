@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
+    <link href="fontawesome/css/all.min.css" rel="stylesheet"> <!-- https://fontawesome.com/ -->
+    <link href="css/functionbuttons.css" rel="stylesheet" > 
+    <link href="css/searchbar.css" rel="stylesheet"/>
+	<link rel="icon" type="image/x-icon" href="icon/Logo.jpg">
+
+    <style>
+        .title{
+            text-align:center;
+            margin-top:5%;
+            margin-bottom: 75px;
+        }
+        body{
+            background-color: #6cb8ff;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="title">Select a department to manage:</h1>
+
+    <div class="tm-container">
+        <nav class="tm-main-nav">
+            <ul id="inline-popups">
+                <li class="tm-nav-item">
+                    <a href="member/memberpage.html" data-effect="mfp-move-from-top" class="tm-nav-link">
+                        Members
+                        <i class="fas fa-3x fa-user-friends"></i>
+                    </a>                
+                </li>
+                <li class="tm-nav-item">
+                    <a href="book/bookpage.html" data-effect="mfp-move-from-top" class="tm-nav-link">
+                        Books
+                        <i class="fas fa-3x fa-book"></i>
+                    </a>                
+                </li>
+				
+				<li class="tm-nav-item">
+                   <a href="borrowdetails/borrowdetails.php" data-effect="mfp-move-from-top" class="tm-nav-link">
+                        Borrow Details
+                        <i class="fas fa-3x fa-info"></i>
+
+                    </a>               
+                </li>
+        </nav>
+    </div>
+    <footer style="position:fixed; bottom:0"><p>Group 13</p></footer>
+</body>
+
+
+</html>
