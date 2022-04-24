@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Library</title>
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
+		<link href="../fontawesome/css/all.min.css" rel="stylesheet"> <!-- https://fontawesome.com/ -->
+		<link href="../css/functionbuttons.css" rel="stylesheet" > 
+		<link href="../css/searchbar.css" rel="stylesheet"/>
+		<link rel="icon" type="image/x-icon" href="../icon/Logo.jpg">
+
+
+		<style>
+			/*Styling for table */
+            table, td, th {  
+                border: 1px solid black;
+                text-align: left;
+                border-collapse: collapse;
+            }
+            
+            th, td {
+                padding: 10px;
+            }
+
+        </style>
+
+	</head>
+
+	<body style="background-color:#6cb8ff;">
+		<section class="search-filters">
+			<div class="container">
+				<div class="filter-box">
+					<h3>What are you looking for at the library?</h3>
+					<form action="bookpage.php" id="booksearch" method="post">
+						<div class="col-md-4 col-sm-6">
+							<div class="form-group">
+								<label class="sr-only" for="keywords">Search by Title</label>
+								<input class="form-control" style="border:1px solid" placeholder="Search by Title" id="title" name="title" type="text">
+							</div>
+						</div>
+
+						<div class="col-md-4 col-sm-6">
+							<div class="form-group">
+								<label class="sr-only" for="keywords">Search by Author</label>
+								<input class="form-control" style="border:1px solid" placeholder="Search by Author" id="author" name="author" type="text">
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6" style="width:33.33333333%">
+							<div class="form-group">
+								<label class="sr-only" for="keywords">Search by ISBN</label>
+								<input class="form-control" style="border:1px solid" placeholder="Search by ISBN" id="isbn" name="isbn" type="text" pattern = "[0-9-]{0,50}">
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-sm-6">
+							<div class="form-group">
+								<select name="category" style="border:1px solid" id="category" class="form-control">
+									<option>All Categories</option>
+									<option>Periodical</option>
+									<option>English</option>
+									<option>Math</option>
+									<option>Science</option>
+									<option>Encyclopedia</option>
+									<option>Filipiniana</option>
+									<option>Newspaper</option>
+									<option>General</option>
+									<option>References</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-6">
+							<div class="form-group">
+								<input class="form-control" type="submit" value="Search">
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+		
+
+		<div class="tm-container">
+			<nav class="tm-main-nav">
+				<ul id="inline-popups">
+					<li class="tm-nav-item">
+						<a href="add/addbook.html" data-effect="mfp-move-from-top" class="tm-nav-link">
+							Add A Book
+							<i class="fas fa-3x fa-folder-plus"></i>
+						</a>                
+					</li>
+					<li class="tm-nav-item">
+						<a href="../member/memberpage.html" data-effect="mfp-move-from-top" class="tm-nav-link">
+							Members
+							<i class="fas fa-3x fa-user-friends"></i>
+						</a>                
+					</li>
+					<li class="tm-nav-item">
+						<a href="../borrowdetails/borrowdetails.php" data-effect="mfp-move-from-top" class="tm-nav-link">
+							 Borrow Details
+							 <i class="fas fa-3x fa-info"></i>
+	 
+						 </a>               
+					 </li>
+				</ul>
+			</nav>
+		</div>
+		<footer style="position:absolute; bottom:0"><p>Group 13</p></footer>	
+	</body>
+</html>

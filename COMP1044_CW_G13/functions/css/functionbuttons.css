@@ -1,0 +1,100 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19px;
+    line-height: 1.8em;
+    overflow-x: hidden;
+}
+
+
+.tm-btn {
+    padding: 10px 40px;
+    color: white;
+    background-color: #3299CD;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+button.tm-btn {
+    padding: 15px 40px;
+}
+
+.tm-btn:hover {
+    color: white;
+    background-color: #49b4e9;
+}
+
+
+div { box-sizing: border-box;}
+
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+a { 
+    text-decoration: none; 
+    transition: all 0.3s ease;
+}
+
+
+.tm-nav-item {
+    list-style: none;
+    margin: 22px;   
+    background-color:white;
+}
+
+.tm-nav-link {
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border: 1px solid #D2D3D4;
+    color: #999; 
+    box-sizing: border-box;
+}
+
+.tm-nav-link:hover,
+.tm-nav-link.active {
+    color: #309AFD;
+}
+
+.tm-nav-link i {
+    margin-top: 30px;
+    color: #309AFD;
+}
+
+.tm-main-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.tm-container {
+    max-width: 1254px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto 135px;
+	text-align: center;
+}
+
+.form-control {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+    border: 1px solid #D5D6D7;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+

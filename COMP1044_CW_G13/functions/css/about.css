@@ -1,0 +1,32 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19px;
+    /* line-height: 1.8em; */
+    overflow-x: hidden;
+}
+
+/*Return button*/
+.return {
+	text-align: right;
+	display: block;
+}
+
+/*links hover and active*/
+a:hover, a.active {
+	color: #309AFD; 
+}
+a { 
+	color: #848586; 
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.style{
+	max-width: 500px;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 10px auto;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+}
